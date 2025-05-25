@@ -17,16 +17,14 @@ SLV: Silver price
 EUR/USD: Euro to US Dollar exchange rate
 
 ⚙️ Libraries Used
-python
-Kopyala
-Düzenle
 import numpy as np  
 import pandas as pd  
 import matplotlib.pyplot as plt  
 import seaborn as sns  
 from sklearn.model_selection import train_test_split  
 from sklearn.ensemble import RandomForestRegressor  
-from sklearn import metrics  
+from sklearn import metrics 
+
 📊 Data Analysis & Visualization
 Checked for missing values ✅
 
@@ -54,15 +52,11 @@ n_estimators: 100
 📈 Model Performance
 The model performs well on test data. Sample prediction output:
 
-python
-Kopyala
-Düzenle
+
 [168.70, 82.03, 116.15, ...]
 Sample evaluation metrics:
 
-python
-Kopyala
-Düzenle
+
 Mean Absolute Error (MAE): 1.234  
 Mean Squared Error (MSE): 2.345  
 Root Mean Squared Error (RMSE): 1.531  
